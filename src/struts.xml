@@ -8,7 +8,13 @@
 		<action name="login" class="com.h.strutsAction.LoginAction"  >
 			<result name="success">/jsp/result.jsp</result>  
 		</action>
-
+		<action name="fileUpload" class="com.h.strutsAction.UploadAction"  >
+			<result name="success">/jsp/fileUploadResult.jsp</result>  
+		</action>
+		<action name="fileUpload2" class="com.h.strutsAction.UploadAction2"  >
+			<result name="success">/jsp/fileUploadResult2.jsp</result>
+			<result name="input">/jsp/fileUpload2.jsp</result>
+		</action>
 		<!-- 
 		<action name="user" class="com.h.struts2.UserAction">
 			<result name="success">/resultout.jsp</result>  

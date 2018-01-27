@@ -3,14 +3,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Login</title>
+<title>fileUpload</title>
 </head>
 <body>
-	<form action="login.action" method="post">
-		user_name:<input type="text" name="username" /><br>
-		pass_word:<input type="password" name="password" /><br>
-		email1:<input type="text" name="email" /><br>
-		File: <input type="file" multiple name="upload"><br>
+	<form action="fileUpload" method="post" enctype="multipart/form-data">
+		username: <inpput type="text" name="username"/><br>
+		file: <input type="file" name="file"><br>
 		<input type="submit" value="submit" />
 	</form>
 </body>

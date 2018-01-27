@@ -11,6 +11,6 @@
   </filter-mapping>
 
   <welcome-file-list>
-  	<welcome-file>jsp/Login.jsp</welcome-file>
+  	<welcome-file>jsp/fileUpload2.jsp</welcome-file>
   </welcome-file-list>
 </web-app>
