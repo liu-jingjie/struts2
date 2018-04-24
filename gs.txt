@@ -1,0 +1,1 @@
+=IF(AND(IFERROR(SEARCH("å©èoÇµ",IF(OR((OR((AND(B2=1,B3<>2)),(AND(B2=2,B1=1)))),AND(B2=2,B1=2)),C2,"")),0)=0,IFERROR(SEARCH("ÉâÉxÉã",IF(OR((OR((AND(B2=1,B3<>2)),(AND(B2=2,B1=1)))),AND(B2=2,B1=2)),C2,"")),0)=0),IF(OR((OR((AND(B2=1,B3<>2)),(AND(B2=2,B1=1)))),AND(B2=2,B1=2)),C2,""),"")
